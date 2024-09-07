@@ -9,3 +9,10 @@ def test_string_input_four():
 
 def test_string_input_add():
     assert add("1,2") == 3
+
+def test_string_input_add_arb():
+    assert add("1,2,3,4,5,6,7,8,9") == 45
+
+def test_newline_diff_sep():
+    assert add("1\n2,3") == 6
+
