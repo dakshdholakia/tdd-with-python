@@ -6,3 +6,6 @@ def test_string_input():
 
 def test_string_input_four():
     assert add("4") == 4
+
+def test_string_input_add():
+    assert add("1,2") == 3
