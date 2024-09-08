@@ -54,20 +54,27 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_string_calculator.test_mult_sing_sep">
-    <configuration name="Python tests for test_string_calculator.test_1000_plus" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_string_calculator.py">
+    <configuration name="string_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/string_calculator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_1000_plus&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/string_calculator/string_calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_string_calculator.test_arb_sep" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -85,6 +92,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_string_calculator.test_mult_long_sep" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="tdd-with-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_mult_long_sep&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_string_calculator.test_mult_sing_sep" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -97,21 +119,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_string_calculator.test_mult_sing_sep&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_string_calculator.test_neg_num" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="tdd-with-python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_neg_num&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -132,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
+        <item itemvalue="Python.string_calculator" />
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_mult_long_sep" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_mult_sing_sep" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_arb_sep" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_1000_plus" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_neg_num" />
-        <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
       </list>
     </recent_temporary>
   </component>
