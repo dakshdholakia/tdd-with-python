@@ -5,12 +5,18 @@ def add(strnum: str):
         return 0
 
     if strnum.startswith("//"):
-        # maxsplit 1 (from left of string)
-        delimiter_part, strnum = strnum.split("\n", 1)
-        # extracting custom delimiter
-        cust_dlim = delimiter_part[2:]
-        # escaping special characters
-        cust_dlim = re.escape(cust_dlim)
+        if strnum[2] == '[':
+            # maxsplit 1 (from left of string)
+            delimiter_part, strnum = strnum.split("\n", 1)
+            # extracting delimiters within square brackets
+            cust_dlim = re.findall(r'\[(.*?)\]', delimiter_part)
+            #  escape and join multiple delimiters
+            cust_dlim = '|'.join(map(re.escape, cust_dlim))
+        else:
+            # Custom single character delimiter
+            delimiter_part, strnum = strnum.split("\n", 1)
+            # Extract single delimiter and escape if necessary
+            cust_dlim = re.escape(delimiter_part[2:])
     else:
         # Default delimiters
         cust_dlim = ',|\n'

@@ -27,3 +27,6 @@ def test_neg_num():
 
 def test_1000_plus():
     assert add("1001, 2") == 2
+
+def test_arb_sep():
+    assert add("//[***]\n1***2***3") == 6
