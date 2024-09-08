@@ -16,3 +16,5 @@ def test_string_input_add_arb():
 def test_newline_diff_sep():
     assert add("1\n2,3") == 6
 
+def test_custom_sep():
+    assert add("//;\n1;2") == 3

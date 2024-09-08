@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="handle scenario to accept blank string input">
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="handle scenario to accept newline sep">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" afterDir="false" />
@@ -42,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_string_calculator.test_custom_sep.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_newline_diff_sep.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_string_input.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_string_input_add.executor": "Run",
@@ -51,7 +52,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_string_calculator.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_string_calculator.test_custom_sep">
     <configuration name="string_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -74,6 +75,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_string_calculator.test_custom_sep" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="tdd-with-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_custom_sep&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_string_calculator.test_newline_diff_sep" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -86,21 +102,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_string_calculator.test_newline_diff_sep&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_string_calculator.test_string_input" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="tdd-with-python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_string_input&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_custom_sep" />
         <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_newline_diff_sep" />
         <item itemvalue="Python.string_calculator" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_string_input_add" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_string_input" />
       </list>
     </recent_temporary>
   </component>
@@ -192,12 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1725687739708</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="handle scenario to accept newline sep">
+      <option name="closed" value="true" />
+      <created>1725688932465</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725688932465</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="handle scenario to accept blank string input" />
-    <option name="LAST_COMMIT_MESSAGE" value="handle scenario to accept blank string input" />
+    <MESSAGE value="handle scenario to accept newline sep" />
+    <option name="LAST_COMMIT_MESSAGE" value="handle scenario to accept newline sep" />
   </component>
 </project>
