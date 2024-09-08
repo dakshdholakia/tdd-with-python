@@ -24,3 +24,6 @@ def test_neg_num():
     with pytest.raises(Exception) as exc:
         add("1,-2,-3")
     assert str(exc.value)
+
+# def test_1000_plus():
+#     assert add("1001, 2") == 2
