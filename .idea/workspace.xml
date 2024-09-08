@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="handle scenario with arbitrary length separators">
-      <change beforePath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" afterDir="false" />
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="handle scenario with multiple single-length separators">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     "Python tests.Python tests for test_string_calculator.test_1000_plus.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_arb_sep.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_custom_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_mult_sing_sep.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_neg_num.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_newline_diff_sep.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_string_input.executor": "Run",
@@ -235,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725810625336</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="handle scenario with multiple single-length separators">
+      <option name="closed" value="true" />
+      <created>1725816793675</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725816793675</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,6 +256,7 @@
     <MESSAGE value="updated: throw exception for negative numbers" />
     <MESSAGE value="handle scenario to ignore numbers &gt; 1000" />
     <MESSAGE value="handle scenario with arbitrary length separators" />
-    <option name="LAST_COMMIT_MESSAGE" value="handle scenario with arbitrary length separators" />
+    <MESSAGE value="handle scenario with multiple single-length separators" />
+    <option name="LAST_COMMIT_MESSAGE" value="handle scenario with multiple single-length separators" />
   </component>
 </project>

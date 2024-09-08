@@ -29,4 +29,5 @@ def add(strnum: str):
         raise Exception("error: negatives not allowed: {' '.join(map(str, neg))}")
 
     ans_sum = sum(ans)
+
     return int(ans_sum)
