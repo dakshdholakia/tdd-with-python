@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="handle scenario to throw exception for negative numbers">
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="updated: throw exception for negative numbers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" afterDir="false" />
@@ -54,7 +54,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_string_calculator.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_string_calculator.test_1000_plus">
     <configuration name="Python tests for test_string_calculator.test_1000_plus" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -132,9 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_1000_plus" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_neg_num" />
+        <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_custom_sep" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_newline_diff_sep" />
       </list>
@@ -212,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725790596847</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated: throw exception for negative numbers">
+      <option name="closed" value="true" />
+      <created>1725809171360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725809171360</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,6 +229,7 @@
     <MESSAGE value="handle scenario to accept newline sep" />
     <MESSAGE value="handle scenario to accept custom separators" />
     <MESSAGE value="handle scenario to throw exception for negative numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="handle scenario to throw exception for negative numbers" />
+    <MESSAGE value="updated: throw exception for negative numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated: throw exception for negative numbers" />
   </component>
 </project>

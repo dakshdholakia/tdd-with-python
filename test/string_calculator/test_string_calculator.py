@@ -25,5 +25,5 @@ def test_neg_num():
         add("1,-2,-3")
     assert str(exc.value)
 
-# def test_1000_plus():
-#     assert add("1001, 2") == 2
+def test_1000_plus():
+    assert add("1001, 2") == 2

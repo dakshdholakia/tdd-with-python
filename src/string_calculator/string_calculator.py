@@ -17,7 +17,7 @@ def add(strnum: str):
 
     # splitting the string based on the delimiter
     numbers = re.split(cust_dlim, strnum)
-    ans = [int(i) for i in numbers if i]
+    ans = [int(i) for i in numbers if i and int(i) <= 1000]
     neg = [num for num in ans if num < 0]
     if neg:
         raise Exception("error: negatives not allowed: {' '.join(map(str, neg))}")
