@@ -1,4 +1,5 @@
 from src.string_calculator.string_calculator import add
+import pytest
 
 def test_string_input():
     assert add("") == 0
@@ -18,3 +19,8 @@ def test_newline_diff_sep():
 
 def test_custom_sep():
     assert add("//;\n1;2") == 3
+
+def test_neg_num():
+    with pytest.raises(Exception) as exc:
+        add("1,-2,-3")
+    assert str(exc.value)
