@@ -30,3 +30,6 @@ def test_1000_plus():
 
 def test_arb_sep():
     assert add("//[***]\n1***2***3") == 6
+
+def test_mult_sing_sep():
+    assert add("//[*][%]\n1*2%3") == 6
