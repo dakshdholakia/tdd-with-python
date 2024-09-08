@@ -33,3 +33,6 @@ def test_arb_sep():
 
 def test_mult_sing_sep():
     assert add("//[*][%]\n1*2%3") == 6
+
+def test_mult_long_sep():
+    assert add("//[foo][bar]\n1foo2bar3") == 6
