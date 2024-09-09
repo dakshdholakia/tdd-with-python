@@ -14,3 +14,6 @@ def test_mult_five():
 
 def test_mult_three_five():
     assert fizzbuzz(15) == "FizzBuzz"
+
+def test_num():
+    assert fizzbuzz(7) == 7

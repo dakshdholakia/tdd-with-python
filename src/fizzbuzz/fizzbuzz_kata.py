@@ -7,3 +7,6 @@ def fizzbuzz(int_num: int):
 
     elif int_num % 3 == 0:
         return "Fizz"
+
+    else:
+        return int_num
