@@ -6,4 +6,5 @@ def test_fizz_three():
 def test_mult_three():
     assert fizzbuzz(9) == "Fizz"
 
-
+def test_five_buzz():
+    assert fizzbuzz(5) == "Buzz"
