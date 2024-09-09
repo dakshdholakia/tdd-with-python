@@ -6,3 +6,5 @@ def test_leap_year():
 def test_leap_year_pos():
     assert leapyr(2016) == "Leap Year"
 
+def test_100_not_400():
+    assert leapyr(2100) == "Not a leap year"
