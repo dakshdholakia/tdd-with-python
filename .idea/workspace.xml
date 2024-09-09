@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="div by 400">
+      <change afterPath="$PROJECT_DIR$/src/arithmetics/arithmetics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/arithmetics/test_arithmetics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leap_year/leap_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leap_year/leap_year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_leap_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_leap_year.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -30,12 +35,15 @@
     &quot;assignee&quot;: &quot;dakshdholakia&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dakshdholakia/tdd-with-python.git&quot;,
-    &quot;accountId&quot;: &quot;07861a5f-e3ac-4ed4-ad0c-dd0689d85ead&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dakshdholakia/tdd-with-python",
+    "accountId": "ca36d762-d3e6-4a1f-800e-95a8f86010b1"
   }
-}</component>
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -51,10 +59,6 @@
   "keyToString": {
     "Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor": "Run",
     "Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor": "Run",
-    "Python tests.Python tests for test_fizzbuzz_kata.test_mult_three_five.executor": "Run",
-    "Python tests.Python tests for test_fizzbuzz_kata.test_num.executor": "Run",
-    "Python tests.Python tests for test_leap_year.test_leap_year.executor": "Run",
-    "Python tests.Python tests for test_leap_year.test_leap_year_pos.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_1000_plus.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_arb_sep.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_custom_sep.executor": "Run",
@@ -65,30 +69,35 @@
     "Python tests.Python tests for test_string_calculator.test_string_input.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_string_input_add.executor": "Run",
     "Python tests.Python tests in test_fizzbuzz_kata.py.executor": "Run",
-    "Python tests.Python tests in test_leap_year.py.executor": "Run",
     "Python tests.Python tests in test_string_calculator.py.executor": "Run",
-    "Python.fizzbuzz_kata.executor": "Run",
     "Python.string_calculator.executor": "Run",
     "Python.test_fizzbuzz_kata.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "arithmetics",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_leap_year.test_100_not_400">
-    <configuration name="Python tests for test_fizzbuzz_kata.test_num" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_fizzbuzz_kata">
+    <configuration name="test_fizzbuzz_kata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/fizzbuzz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fizzbuzz_kata.test_num&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_leap_year.test_100_not_400" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -153,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_fizzbuzz_kata" />
         <item itemvalue="Python tests.Python tests for test_leap_year.test_100_not_400" />
         <item itemvalue="Python tests.Python tests in test_leap_year.py" />
         <item itemvalue="Python tests.Python tests for test_leap_year.test_leap_year_pos" />
         <item itemvalue="Python tests.Python tests for test_leap_year.test_leap_year" />
-        <item itemvalue="Python tests.Python tests for test_fizzbuzz_kata.test_num" />
       </list>
     </recent_temporary>
   </component>
@@ -355,6 +364,17 @@
     </task>
     <option name="localTasksCounter" value="23" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
