@@ -37,7 +37,5 @@ def test_size():
 def test_peek():
     l1 = [2, 4]
     st = Stack(l1)
-    # l1.pop()
-    # l1.pop()
     pe = st.peek()
     assert pe == 2
