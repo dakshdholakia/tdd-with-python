@@ -12,3 +12,9 @@ class Stack:
         self.p1.pop()
         return self.p1
 
+    def is_empty(self):
+        if len(self.p1) == 0:
+            return True
+        else:
+            return False
+

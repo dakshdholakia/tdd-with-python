@@ -13,3 +13,19 @@ def test_pop():
     p1 = st.pop()
     assert len(p1) == 0
     assert len(l1) == 0
+
+
+def test_empty():
+    l1 = []          # arrange
+    st = Stack(l1)    # arrange
+    p1 = st.is_empty()
+    assert p1 == True
+
+
+def test_is_not_empty():
+    l1 = [4]          # arrange
+    st = Stack(l1)    # arrange
+    p1 = st.is_empty()
+    assert p1 == False
+
+
