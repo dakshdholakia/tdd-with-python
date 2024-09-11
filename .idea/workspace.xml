@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="handle empty, not empty">
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="handle size, peek">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_kata/stack_kata.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_kata/stack_kata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stack_kata/test_stack_kata.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/stack_kata/test_stack_kata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetics/arithmetics.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetics/arithmetics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/arithmetics/test_arithmetics.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/arithmetics/test_arithmetics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_arithmetics.test_exp.executor": "Run",
+    "Python tests.Python tests for test_arithmetics.test_exp2.executor": "Run",
     "Python tests.Python tests for test_arithmetics.test_exp_1.executor": "Run",
     "Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor": "Run",
     "Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor": "Run",
@@ -87,34 +88,19 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_stack_kata.test_peek">
-    <configuration name="Python tests for test_stack_kata.test_empty" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_arithmetics.test_exp2">
+    <configuration name="Python tests for test_arithmetics.test_exp2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/stack_kata" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/arithmetics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stack_kata.test_empty&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_stack_kata.test_is_not_empty" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="tdd-with-python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/stack_kata" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stack_kata.test_is_not_empty&quot;" />
+      <option name="_new_target" value="&quot;test_arithmetics.test_exp2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -148,6 +134,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_arithmetics.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="tdd-with-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/arithmetics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/arithmetics/test_arithmetics.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_stack_kata.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_arithmetics.test_exp2" />
+        <item itemvalue="Python tests.Python tests in test_arithmetics.py" />
         <item itemvalue="Python tests.Python tests for test_stack_kata.test_peek" />
         <item itemvalue="Python tests.Python tests for test_stack_kata.test_size" />
         <item itemvalue="Python tests.Python tests in test_stack_kata.py" />
-        <item itemvalue="Python tests.Python tests for test_stack_kata.test_is_not_empty" />
-        <item itemvalue="Python tests.Python tests for test_stack_kata.test_empty" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +398,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726031985592</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="handle size, peek">
+      <option name="closed" value="true" />
+      <created>1726032831577</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1726032831577</updated>
+    </task>
+    <task id="LOCAL-00028" summary="handle size, peek">
+      <option name="closed" value="true" />
+      <created>1726032870633</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1726032870633</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,6 +450,7 @@
     <MESSAGE value="handle push" />
     <MESSAGE value="handle pop" />
     <MESSAGE value="handle empty, not empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="handle empty, not empty" />
+    <MESSAGE value="handle size, peek" />
+    <option name="LAST_COMMIT_MESSAGE" value="handle size, peek" />
   </component>
 </project>
