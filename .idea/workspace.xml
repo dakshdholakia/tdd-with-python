@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="div by 400">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tdd-with-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tdd-with-python.iml" afterDir="false" />
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="( ( 4 * 5 ) ) case specific">
+      <change afterPath="$PROJECT_DIR$/src/stack_kata/stack_kata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/stack_kata/test_stack_kata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetics/arithmetics.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetics/arithmetics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/arithmetics/test_arithmetics.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/arithmetics/test_arithmetics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +37,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dakshdholakia/tdd-with-python&quot;,
-    &quot;accountId&quot;: &quot;ca36d762-d3e6-4a1f-800e-95a8f86010b1&quot;
+    &quot;url&quot;: &quot;https://github.com/dakshdholakia/tdd-with-python.git&quot;,
+    &quot;accountId&quot;: &quot;07861a5f-e3ac-4ed4-ad0c-dd0689d85ead&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -64,6 +61,7 @@
     "Python tests.Python tests for test_arithmetics.test_exp_1.executor": "Run",
     "Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor": "Run",
     "Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_push.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_1000_plus.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_arb_sep.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_custom_sep.executor": "Run",
@@ -83,7 +81,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_arithmetics.test_exp">
+  <component name="RunManager" selected="Python tests.Python tests for test_stack_kata.test_push">
     <configuration name="test_fizzbuzz_kata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -136,18 +134,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_leap_year.test_100_not_400" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_stack_kata.test_push" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/stack_kata" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_leap_year.test_100_not_400&quot;" />
+      <option name="_new_target" value="&quot;test_stack_kata.test_push&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -168,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_stack_kata.test_push" />
         <item itemvalue="Python tests.Python tests for test_arithmetics.test_exp" />
         <item itemvalue="Python tests.Python tests in test_arithmetics.py" />
         <item itemvalue="Python tests.Python tests for test_arithmetics.test_exp_1" />
         <item itemvalue="Python.test_fizzbuzz_kata" />
-        <item itemvalue="Python tests.Python tests for test_leap_year.test_100_not_400" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725859520335</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="( ( 4 * 5 ) ) case specific">
+      <option name="closed" value="true" />
+      <created>1725866636188</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1725866636188</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,6 +406,7 @@
     <MESSAGE value="mult 3 and 5" />
     <MESSAGE value="leap year or not a leap year" />
     <MESSAGE value="div by 400" />
-    <option name="LAST_COMMIT_MESSAGE" value="div by 400" />
+    <MESSAGE value="( ( 4 * 5 ) ) case specific" />
+    <option name="LAST_COMMIT_MESSAGE" value="( ( 4 * 5 ) ) case specific" />
   </component>
 </project>
