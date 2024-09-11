@@ -18,3 +18,8 @@ class Stack:
         else:
             return False
 
+    def list_size(self):
+        return len(self.p1)
+
+    def peek(self):
+        return self.p1[0]
