@@ -17,3 +17,6 @@ def test_exp3():
 
 def test_exp4():
     assert arithmetics('( 5 * ( 4 * ( 3 * ( 2 * ( 1 * 9 ) / 8 - 7 ) + 6 ) ) )') == -165
+
+def test_khit():
+    assert arithmetics(')))(((') == "Invalid record error"
