@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="handle float &amp; div (all examples done)" />
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="handle )))((( case" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +31,22 @@
     &quot;assignee&quot;: &quot;dakshdholakia&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dakshdholakia/tdd-with-python.git&quot;,
-    &quot;accountId&quot;: &quot;07861a5f-e3ac-4ed4-ad0c-dd0689d85ead&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dakshdholakia/tdd-with-python.git",
+    "accountId": "07861a5f-e3ac-4ed4-ad0c-dd0689d85ead"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "dakshdholakia",
+    "repository": "tdd-with-python"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -51,41 +61,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_arithmetics.test_exp.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_arithmetics.test_exp2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_arithmetics.test_exp4.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_arithmetics.test_exp_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_is_not_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_peek.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_pop.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_push.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_size.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_1000_plus.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_arb_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_custom_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_mult_long_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_mult_sing_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_neg_num.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_newline_diff_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_string_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_string_input_add.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_arithmetics.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_fizzbuzz_kata.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_stack_kata.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_string_calculator.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.arithmetics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_fizzbuzz_kata.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;arithmetics&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_arithmetics.test_exp.executor": "Run",
+    "Python tests.Python tests for test_arithmetics.test_exp2.executor": "Run",
+    "Python tests.Python tests for test_arithmetics.test_exp4.executor": "Run",
+    "Python tests.Python tests for test_arithmetics.test_exp_1.executor": "Run",
+    "Python tests.Python tests for test_arithmetics.test_khit.executor": "Run",
+    "Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor": "Run",
+    "Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_empty.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_is_not_empty.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_peek.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_pop.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_push.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_size.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_1000_plus.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_arb_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_custom_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_mult_long_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_mult_sing_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_neg_num.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_newline_diff_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_string_input.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_string_input_add.executor": "Run",
+    "Python tests.Python tests in test_arithmetics.py.executor": "Run",
+    "Python tests.Python tests in test_fizzbuzz_kata.py.executor": "Run",
+    "Python tests.Python tests in test_stack_kata.py.executor": "Run",
+    "Python tests.Python tests in test_string_calculator.py.executor": "Run",
+    "Python.arithmetics.executor": "Run",
+    "Python.string_calculator.executor": "Run",
+    "Python.test_fizzbuzz_kata.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "arithmetics",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_arithmetics.test_khit">
     <configuration name="arithmetics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
@@ -443,7 +454,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726052520065</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="handle )))((( case">
+      <option name="closed" value="true" />
+      <created>1726128583632</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1726128583632</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="handle scenario to accept blank string input" />
     <MESSAGE value="handle scenario to accept newline sep" />
     <MESSAGE value="handle scenario to accept custom separators" />
@@ -483,6 +501,7 @@
     <MESSAGE value="handle empty () and non-enclosed exp" />
     <MESSAGE value="handle empty () and non-enclosed exp updated" />
     <MESSAGE value="handle float &amp; div (all examples done)" />
-    <option name="LAST_COMMIT_MESSAGE" value="handle float &amp; div (all examples done)" />
+    <MESSAGE value="handle )))((( case" />
+    <option name="LAST_COMMIT_MESSAGE" value="handle )))((( case" />
   </component>
 </project>
