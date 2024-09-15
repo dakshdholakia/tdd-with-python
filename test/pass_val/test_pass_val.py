@@ -1,4 +1,4 @@
-from src.pass_val.pass_val import PasswordValidatorRule
+from src.pass_val.pass_val import PasswordValidatorRule, PasswordValidatorAbs
 
 
 # basic password validation
@@ -11,3 +11,7 @@ def test_iter2():
     assert val.validate_pass() == "Valid Password"
     val = PasswordValidatorRule.get_validator(3, "Bhadresssbhai_12345")
     assert val.validate_pass() == "Valid Password"
+
+def test_iter3():
+    val = PasswordValidatorRule.get_validator(3, "Bhadresss_123")
+    assert val.validate_pass() == "Invalid Password: Length must be more than 16 Characters"
