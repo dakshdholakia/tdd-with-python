@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="Iter 1 Password Validation">
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="Iter 2 (Val. Rule 2 &amp; 3)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pass_val/pass_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pass_val/pass_val.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pass_val/test_pass_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pass_val/test_pass_val.py" afterDir="false" />
@@ -76,6 +76,8 @@
     "Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor": "Run",
     "Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_iter1.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_iter2.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_iter3.executor": "Run",
     "Python tests.Python tests for test_stack_kata.test_empty.executor": "Run",
     "Python tests.Python tests for test_stack_kata.test_is_not_empty.executor": "Run",
     "Python tests.Python tests for test_stack_kata.test_peek.executor": "Run",
@@ -105,7 +107,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_pass_val.test_iter2">
+  <component name="RunManager" selected="Python tests.Python tests for test_pass_val.test_iter3">
     <configuration name="pass_val" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -126,21 +128,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_arithmetics.test_exp" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="tdd-with-python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/arithmetics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_arithmetics.test_exp&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_pass_val.test_iter1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -173,6 +160,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_pass_val.test_iter3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="tdd-with-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/pass_val" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pass_val.test_iter3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_pass_val.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -190,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_pass_val.test_iter3" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_iter2" />
         <item itemvalue="Python tests.Python tests in test_pass_val.py" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_iter1" />
         <item itemvalue="Python.pass_val" />
-        <item itemvalue="Python tests.Python tests for test_arithmetics.test_exp" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726293712022</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Iter 2 (Val. Rule 2 &amp; 3)">
+      <option name="closed" value="true" />
+      <created>1726422270788</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1726422270788</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="handle scenario to accept custom separators" />
     <MESSAGE value="handle scenario to throw exception for negative numbers" />
     <MESSAGE value="updated: throw exception for negative numbers" />
     <MESSAGE value="handle scenario to ignore numbers &gt; 1000" />
@@ -526,6 +535,7 @@
     <MESSAGE value="handle )))((( case" />
     <MESSAGE value="refactor v1" />
     <MESSAGE value="Iter 1 Password Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iter 1 Password Validation" />
+    <MESSAGE value="Iter 2 (Val. Rule 2 &amp; 3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iter 2 (Val. Rule 2 &amp; 3)" />
   </component>
 </project>
