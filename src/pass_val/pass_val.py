@@ -60,6 +60,29 @@ class ValidationRule3(PasswordValidatorAbs):
         self.has_underscore()
         return "Valid Password" if not self.errors else self.errors
 
+# allow one rule failure
+class ValidationAllowOneFail(PasswordValidatorAbs):
+    def validate_pass(self):
+        self.errors.clear()
+        rule_failures = []
+
+        if len(self.pw) <= 8:
+            rule_failures.append("Invalid Password: Length must be more than 8 Characters")
+        if re.search(r'[a-z]', self.pw) is None:
+            rule_failures.append("Invalid Password: Must contain at least 1 Lower Case Letter")
+        if re.search(r'[A-Z]', self.pw) is None:
+            rule_failures.append("Invalid Password: Must contain at least 1 Upper Case Letter")
+        if re.search(r'[0-9]', self.pw) is None:
+            rule_failures.append("Invalid Password: Must contain at least 1 Number")
+        if '_' not in self.pw:
+            rule_failures.append("Invalid Password: Must contain at least 1 Underscore (_)")
+
+        # Allow one failure
+        if len(rule_failures) > 1:
+            self.errors.extend(rule_failures)
+            return self.errors
+        return "Valid Password"
+
 class PasswordValidatorRule:
     @staticmethod
     def get_validator(rule_type, pw):
@@ -69,5 +92,7 @@ class PasswordValidatorRule:
             return ValidationRule2(pw)
         elif rule_type == 3:
             return ValidationRule3(pw)
+        elif rule_type == "allow_one_fail":
+            return ValidationAllowOneFail(pw)
         else:
             raise ValueError("Invalid rule type")
