@@ -5,6 +5,7 @@ class PasswordValidatorAbs(ABC):
     def __init__(self, pw):
         self.pw = pw
         self.errors = []
+        self.valid = "Valid Password"
 
     # each class will implement this abstract method
     @abstractmethod
@@ -21,7 +22,7 @@ class PasswordValidatorAbs(ABC):
             self.errors.append("Invalid Password: Must contain at least 1 Lower Case Letter")
 
     def has_num(self):
-        if re.search(r'[0-9]', self.pw) is None:
+        if re.search(r'\d', self.pw) is None:
             self.errors.append("Invalid Password: Must contain at least 1 Number")
 
     def has_underscore(self):
@@ -38,7 +39,7 @@ class ValidationRule1(PasswordValidatorAbs):
         self.has_lower()
         self.has_num()
         self.has_underscore()
-        return "Valid Password" if not self.errors else self.errors
+        return self.valid if not self.errors else self.errors
 
 class ValidationRule2(PasswordValidatorAbs):
     def validate_pass(self):
@@ -48,7 +49,7 @@ class ValidationRule2(PasswordValidatorAbs):
         self.has_upper()
         self.has_lower()
         self.has_num()
-        return "Valid Password" if not self.errors else self.errors
+        return self.valid if not self.errors else self.errors
 
 class ValidationRule3(PasswordValidatorAbs):
     def validate_pass(self):
@@ -58,7 +59,7 @@ class ValidationRule3(PasswordValidatorAbs):
         self.has_upper()
         self.has_lower()
         self.has_underscore()
-        return "Valid Password" if not self.errors else self.errors
+        return self.valid if not self.errors else self.errors
 
 # allow one rule failure
 class ValidationAllowOneFail(PasswordValidatorAbs):
@@ -72,7 +73,7 @@ class ValidationAllowOneFail(PasswordValidatorAbs):
             rule_failures.append("Invalid Password: Must contain at least 1 Lower Case Letter")
         if re.search(r'[A-Z]', self.pw) is None:
             rule_failures.append("Invalid Password: Must contain at least 1 Upper Case Letter")
-        if re.search(r'[0-9]', self.pw) is None:
+        if re.search(r'\d', self.pw) is None:
             rule_failures.append("Invalid Password: Must contain at least 1 Number")
         if '_' not in self.pw:
             rule_failures.append("Invalid Password: Must contain at least 1 Underscore (_)")
@@ -81,7 +82,7 @@ class ValidationAllowOneFail(PasswordValidatorAbs):
         if len(rule_failures) > 1:
             self.errors.extend(rule_failures)
             return self.errors
-        return "Valid Password"
+        return self.valid
 
 class PasswordValidatorRule:
     @staticmethod

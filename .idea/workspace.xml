@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="Iter 3 (list of multiple errors)">
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="Iter 4 v1 (allow 1 failure)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pass_val/pass_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pass_val/pass_val.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pass_val/test_pass_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pass_val/test_pass_val.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
     &quot;Python tests.Python tests for test_pass_val.test_iter1.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_pass_val.test_iter2.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_pass_val.test_iter3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pass_val.test_iter4.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_stack_kata.test_empty.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_stack_kata.test_is_not_empty.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_stack_kata.test_peek.executor&quot;: &quot;Run&quot;,
@@ -106,7 +108,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_pass_val.test_iter4">
+  <component name="RunManager" selected="Python tests.Python tests for test_pass_val.test_iter2">
     <configuration name="Python tests for test_pass_val.test_iter1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -184,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_pass_val.test_iter2" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_iter4" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_iter3" />
         <item itemvalue="Python tests.Python tests in test_pass_val.py" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_iter1" />
-        <item itemvalue="Python tests.Python tests for test_pass_val.test_iter2" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726472142036</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Iter 4 v1 (allow 1 failure)">
+      <option name="closed" value="true" />
+      <created>1726473766035</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1726473766035</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="handle scenario to ignore numbers &gt; 1000" />
     <MESSAGE value="handle scenario with arbitrary length separators" />
     <MESSAGE value="handle scenario with multiple single-length separators" />
     <MESSAGE value="handle scenario with multiple longer-length separators" />
@@ -544,6 +553,7 @@
     <MESSAGE value="Iter 2 (Val. Rule 2 &amp; 3)" />
     <MESSAGE value="Iter 3 (Single reason of invalidity, not list)" />
     <MESSAGE value="Iter 3 (list of multiple errors)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iter 3 (list of multiple errors)" />
+    <MESSAGE value="Iter 4 v1 (allow 1 failure)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iter 4 v1 (allow 1 failure)" />
   </component>
 </project>

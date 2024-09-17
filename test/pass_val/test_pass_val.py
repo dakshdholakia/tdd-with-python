@@ -1,4 +1,4 @@
-from src.pass_val.pass_val import PasswordValidatorRule, PasswordValidatorAbs
+from src.pass_val.pass_val import PasswordValidatorRule
 
 
 # basic password validation
@@ -11,9 +11,7 @@ def test_iter2():
     val = PasswordValidatorRule.get_validator(2, "Bhadresss123")
     errors = val.validate_pass()
     assert errors == "Valid Password"
-    # val = PasswordValidatorRule.get_validator(3, "Bhadresssbhai_12345")
-    # errors = val.validate_pass()
-    # assert errors == "Valid Password"
+
     val = PasswordValidatorRule.get_validator(3, "bhadresss12345")
     errors = val.validate_pass()
     assert errors == [
