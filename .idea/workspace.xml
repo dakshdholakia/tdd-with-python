@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="Iter 3 (list of multiple errors)">
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="SonarLint corrected">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pass_val/pass_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pass_val/pass_val.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,49 +63,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_arithmetics.test_brackets.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_arithmetics.test_exp.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_arithmetics.test_exp2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_arithmetics.test_exp4.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_arithmetics.test_exp_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_arithmetics.test_khit.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_pass_val.test_iter1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_pass_val.test_iter2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_pass_val.test_iter3.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_is_not_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_peek.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_pop.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_push.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stack_kata.test_size.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_1000_plus.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_arb_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_custom_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_mult_long_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_mult_sing_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_neg_num.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_newline_diff_sep.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_string_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_string_input_add.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_arithmetics.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_fizzbuzz_kata.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_pass_val.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_stack_kata.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_string_calculator.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.arithmetics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pass_val.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_fizzbuzz_kata.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;arithmetics&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_arithmetics.test_brackets.executor": "Debug",
+    "Python tests.Python tests for test_arithmetics.test_exp.executor": "Debug",
+    "Python tests.Python tests for test_arithmetics.test_exp2.executor": "Run",
+    "Python tests.Python tests for test_arithmetics.test_exp4.executor": "Run",
+    "Python tests.Python tests for test_arithmetics.test_exp_1.executor": "Run",
+    "Python tests.Python tests for test_arithmetics.test_khit.executor": "Debug",
+    "Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor": "Run",
+    "Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_iter1.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_iter2.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_iter3.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_iter4.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_empty.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_is_not_empty.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_peek.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_pop.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_push.executor": "Run",
+    "Python tests.Python tests for test_stack_kata.test_size.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_1000_plus.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_arb_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_custom_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_mult_long_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_mult_sing_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_neg_num.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_newline_diff_sep.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_string_input.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_string_input_add.executor": "Run",
+    "Python tests.Python tests in test_arithmetics.py.executor": "Run",
+    "Python tests.Python tests in test_fizzbuzz_kata.py.executor": "Run",
+    "Python tests.Python tests in test_pass_val.py.executor": "Run",
+    "Python tests.Python tests in test_stack_kata.py.executor": "Run",
+    "Python tests.Python tests in test_string_calculator.py.executor": "Run",
+    "Python.arithmetics.executor": "Run",
+    "Python.pass_val.executor": "Run",
+    "Python.string_calculator.executor": "Run",
+    "Python.test_fizzbuzz_kata.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "arithmetics",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_pass_val.test_iter4">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_pass_val.test_iter2">
     <configuration name="Python tests for test_pass_val.test_iter1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -184,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_pass_val.test_iter2" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_iter4" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_iter3" />
         <item itemvalue="Python tests.Python tests in test_pass_val.py" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_iter1" />
-        <item itemvalue="Python tests.Python tests for test_pass_val.test_iter2" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +505,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726472142036</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Iter 4 v1 (allow 1 failure)">
+      <option name="closed" value="true" />
+      <created>1726473766035</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1726473766035</updated>
+    </task>
+    <task id="LOCAL-00039" summary="SonarLint corrected">
+      <option name="closed" value="true" />
+      <created>1726581856618</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1726581856618</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,8 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="handle scenario to ignore numbers &gt; 1000" />
-    <MESSAGE value="handle scenario with arbitrary length separators" />
     <MESSAGE value="handle scenario with multiple single-length separators" />
     <MESSAGE value="handle scenario with multiple longer-length separators" />
     <MESSAGE value="fizz 3" />
@@ -544,6 +559,8 @@
     <MESSAGE value="Iter 2 (Val. Rule 2 &amp; 3)" />
     <MESSAGE value="Iter 3 (Single reason of invalidity, not list)" />
     <MESSAGE value="Iter 3 (list of multiple errors)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iter 3 (list of multiple errors)" />
+    <MESSAGE value="Iter 4 v1 (allow 1 failure)" />
+    <MESSAGE value="SonarLint corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="SonarLint corrected" />
   </component>
 </project>
