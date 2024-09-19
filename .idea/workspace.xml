@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="SonarLint corrected">
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="Coverage report passed">
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pass_val/test_pass_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pass_val/test_pass_val.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +75,16 @@
     "Python tests.Python tests for test_arithmetics.test_khit.executor": "Debug",
     "Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor": "Run",
     "Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_cov.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_invalid_rule.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_iter1.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_iter2.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_iter3.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_iter4.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_len_less_than_8.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_no_lower.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_no_num.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_pass.executor": "Run",
     "Python tests.Python tests for test_stack_kata.test_empty.executor": "Run",
     "Python tests.Python tests for test_stack_kata.test_is_not_empty.executor": "Run",
     "Python tests.Python tests for test_stack_kata.test_peek.executor": "Run",
@@ -107,8 +115,8 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_pass_val.test_iter2">
-    <configuration name="Python tests for test_pass_val.test_iter1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_pass_val.test_1fail_lt8_low">
+    <configuration name="Python tests for test_pass_val.test_1fail_lt8" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,11 +127,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pass_val.test_iter1&quot;" />
+      <option name="_new_target" value="&quot;test_pass_val.test_1fail_lt8&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_pass_val.test_iter2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_pass_val.test_1fail_lt8_low" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,11 +142,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pass_val.test_iter2&quot;" />
+      <option name="_new_target" value="&quot;test_pass_val.test_1fail_lt8_low&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_pass_val.test_iter3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_pass_val.test_len_less_than_6" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,11 +157,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pass_val.test_iter3&quot;" />
+      <option name="_new_target" value="&quot;test_pass_val.test_len_less_than_6&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_pass_val.test_iter4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_pass_val.test_len_less_than_8" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,7 +172,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pass_val.test_iter4&quot;" />
+      <option name="_new_target" value="&quot;test_pass_val.test_len_less_than_8&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -185,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_pass_val.test_iter2" />
-        <item itemvalue="Python tests.Python tests for test_pass_val.test_iter4" />
-        <item itemvalue="Python tests.Python tests for test_pass_val.test_iter3" />
+        <item itemvalue="Python tests.Python tests for test_pass_val.test_1fail_lt8_low" />
         <item itemvalue="Python tests.Python tests in test_pass_val.py" />
-        <item itemvalue="Python tests.Python tests for test_pass_val.test_iter1" />
+        <item itemvalue="Python tests.Python tests for test_pass_val.test_1fail_lt8" />
+        <item itemvalue="Python tests.Python tests for test_pass_val.test_len_less_than_6" />
+        <item itemvalue="Python tests.Python tests for test_pass_val.test_len_less_than_8" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726581856618</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Coverage report passed">
+      <option name="closed" value="true" />
+      <created>1726582903687</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1726582903687</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="handle scenario with multiple single-length separators" />
     <MESSAGE value="handle scenario with multiple longer-length separators" />
     <MESSAGE value="fizz 3" />
     <MESSAGE value="fizz mult 3" />
@@ -561,6 +576,7 @@
     <MESSAGE value="Iter 3 (list of multiple errors)" />
     <MESSAGE value="Iter 4 v1 (allow 1 failure)" />
     <MESSAGE value="SonarLint corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="SonarLint corrected" />
+    <MESSAGE value="Coverage report passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coverage report passed" />
   </component>
 </project>
