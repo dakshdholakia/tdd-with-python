@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="Coverage report passed">
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="Coverage 99% passed">
+      <change afterPath="$PROJECT_DIR$/todo_proj/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo_proj/todo_app/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo_proj/todo_app/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo_proj/todo_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pass_val/test_pass_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pass_val/test_pass_val.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_leap_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/leap_year/test_leap_year.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -67,6 +72,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python tests.Python tests for test_arithmetics.test_brackets.executor": "Debug",
     "Python tests.Python tests for test_arithmetics.test_exp.executor": "Debug",
     "Python tests.Python tests for test_arithmetics.test_exp2.executor": "Run",
@@ -75,12 +81,15 @@
     "Python tests.Python tests for test_arithmetics.test_khit.executor": "Debug",
     "Python tests.Python tests for test_fizzbuzz_kata.test_fizz_three.executor": "Run",
     "Python tests.Python tests for test_fizzbuzz_kata.test_mult_three.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_1fail_lt8.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_1fail_lt8_low.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_cov.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_invalid_rule.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_iter1.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_iter2.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_iter3.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_iter4.executor": "Run",
+    "Python tests.Python tests for test_pass_val.test_len_less_than_6.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_len_less_than_8.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_no_lower.executor": "Run",
     "Python tests.Python tests for test_pass_val.test_no_num.executor": "Run",
@@ -106,6 +115,7 @@
     "Python tests.Python tests in test_stack_kata.py.executor": "Run",
     "Python tests.Python tests in test_string_calculator.py.executor": "Run",
     "Python.arithmetics.executor": "Run",
+    "Python.models.executor": "Run",
     "Python.pass_val.executor": "Run",
     "Python.string_calculator.executor": "Run",
     "Python.test_fizzbuzz_kata.executor": "Run",
@@ -115,7 +125,35 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_pass_val.test_1fail_lt8_low">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Daksh Dholakia\PycharmProjects\tdd-with-python\todo_proj" />
+      <recent name="C:\Users\Daksh Dholakia\PycharmProjects\tdd-with-python\test\leap_year" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.models">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tdd-with-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/todoapp/todoapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/todoapp/todoapp/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_pass_val.test_1fail_lt8" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -161,21 +199,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_pass_val.test_len_less_than_8" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="tdd-with-python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/pass_val" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pass_val.test_len_less_than_8&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests in test_pass_val.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="tdd-with-python" />
       <option name="ENV_FILES" value="" />
@@ -193,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.models" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_1fail_lt8_low" />
         <item itemvalue="Python tests.Python tests in test_pass_val.py" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_1fail_lt8" />
         <item itemvalue="Python tests.Python tests for test_pass_val.test_len_less_than_6" />
-        <item itemvalue="Python tests.Python tests for test_pass_val.test_len_less_than_8" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726582903687</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Coverage 99% passed">
+      <option name="closed" value="true" />
+      <created>1726723607274</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1726723607274</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="handle scenario with multiple longer-length separators" />
     <MESSAGE value="fizz 3" />
     <MESSAGE value="fizz mult 3" />
     <MESSAGE value="buzz 5" />
@@ -577,6 +607,7 @@
     <MESSAGE value="Iter 4 v1 (allow 1 failure)" />
     <MESSAGE value="SonarLint corrected" />
     <MESSAGE value="Coverage report passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coverage report passed" />
+    <MESSAGE value="Coverage 99% passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coverage 99% passed" />
   </component>
 </project>

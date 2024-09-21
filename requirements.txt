@@ -1,3 +1,10 @@
-pytest
+pytest~=8.3.2
 pytest-cov
 coverage
+django~=5.1.1
+djangorestframework~=3.15.2
+postgres
+django-cors-headers
+graphene~=3.3
+graphene-django~=3.2.2
+Serializer~=0.2.1
