@@ -7,6 +7,7 @@ from .serializers import ToDoSerializer  # Your DRF serializer
 class TodoType(DjangoObjectType):
     class Meta:
         model = Todo
+        fields = "__all__"
 
 
 class Query(graphene.ObjectType):
