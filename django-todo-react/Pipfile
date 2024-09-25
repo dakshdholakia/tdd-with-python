@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "~=8.3.2"
+pytest-cov = "*"
+coverage = "*"
+django = "*"
+djangorestframework = "*"
+postgres = "*"
+django-cors-headers = "*"
+graphene = "~=3.3"
+graphene-django = "~=3.2.2"
+serializer = "~=0.2.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
