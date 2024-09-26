@@ -5,45 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="react + django todo">
-      <change afterPath="$PROJECT_DIR$/django-todo-react/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/backend/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/backend/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/backend/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/backend/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/todo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/todo/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/todo/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/todo/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/todo/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/todo/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/todo/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/todo/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/backend/todo/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/src/components/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-todo-react/frontend/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-todo-react/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django-todo-react/backend/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-todo-react/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django-todo-react/backend/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +119,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;arithmetics&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -625,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727258038153</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="react + django todo">
+      <option name="closed" value="true" />
+      <created>1727264469970</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1727264469970</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
