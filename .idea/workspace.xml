@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="react + django todo">
+    <list default="true" id="bbb25476-b0c9-401f-b730-91a6bcddd173" name="Changes" comment="react + django todo v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django-todo-react/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django-todo-react/backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django-todo-react/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django-todo-react/backend/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -597,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727264469970</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="react + django todo v2">
+      <option name="closed" value="true" />
+      <created>1727328962311</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1727328962311</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -612,7 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="buzz mult 5" />
     <MESSAGE value="mult 3 and 5" />
     <MESSAGE value="leap year or not a leap year" />
     <MESSAGE value="div by 400" />
@@ -637,6 +643,7 @@
     <MESSAGE value="django todo list v1" />
     <MESSAGE value="create, delete, view todo" />
     <MESSAGE value="react + django todo" />
-    <option name="LAST_COMMIT_MESSAGE" value="react + django todo" />
+    <MESSAGE value="react + django todo v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="react + django todo v2" />
   </component>
 </project>
